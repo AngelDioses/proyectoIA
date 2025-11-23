@@ -10,7 +10,7 @@ import base64
 
 # Nota: Ya no se importa UNetMultiTask ni se carga el modelo localmente
 # Usamos el URL base para la conexión
-API_URL = "http://127.0.0.1:8000/predict_mri"
+API_URL = "https://proyectoia-5vip.onrender.com/predict_mri"
 IMG_SIZE = 256 # Necesario para el resize de la imagen de visualización
 
 # --- Función de Cliente API ---
@@ -53,7 +53,7 @@ def load_local_metrics():
 st.set_page_config(page_title="Agente DL para Tumores MRI", layout="wide")
 
 st.title("🧠 Agente de IA: Detección y Segmentación de Tumores MRI")
-st.markdown("El Agente (FastAPI) ejecuta la inferencia en la **RTX 3050** y Streamlit actúa como la Interfaz de Usuario.")
+st.markdown("El Agente (FastAPI) ejecuta la inferencia en la Tarjeta Gráfica y Streamlit actúa como la Interfaz de Usuario.")
 st.write("---")
 
 ## 1. Reporte de Métricas (REALES)
