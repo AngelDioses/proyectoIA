@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+requests
+torch
+torchvision # Es buena práctica incluirlo si usas PyTorch
+numpy
+opencv-python-headless
+pandas
+scikit-learn
+streamlit
